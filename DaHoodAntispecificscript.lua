@@ -55,8 +55,8 @@ function badthing()
 	game.Players.LocalPlayer.Backpack.Wallet.Handle.BillboardGui.TextLabel.Text = "Swagmode is unaccepted."
 	wait(0.5)
 	game.Players.LocalPlayer.Backpack.Wallet.Parent = game.Players.LocalPlayer.Character
-	wait(1)
---	game.Players.LocalPlayer:Kick("Swagmode is unaccepted.")
+	wait(5)
+	game.Players.LocalPlayer:Kick("Swagmode is unaccepted.")
  end
 
 
